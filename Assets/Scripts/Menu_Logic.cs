@@ -62,7 +62,7 @@ public class Menu_Logic : MonoBehaviour {
 		for (int i = 0; i < Defined_Vars.menus.Length; i++) {
 			if (Defined_Vars.menus[i] != "LoadingPanel") MenuMod(Defined_Vars.menus[i],Defined_Vars.OFF);
 		}
-		UIObjects ["LoadingBackButton"].GetComponent<Button> ().onClick.AddListener (delegate { MainPanel();});
+		UIObjects ["LoadingPanelBackButton"].GetComponent<Button> ().onClick.AddListener (delegate { MainPanel();});
 
 	}
 
