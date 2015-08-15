@@ -10,7 +10,7 @@ public class Defined_Vars : MonoBehaviour {
 		public static Slider Dollars = null;
 		public static Slider SfxBar = null;
 		public static Slider MusicBar = null;
-		public static string Link = "http://stackoverflow.com/questions/502199/how-to-open-a-web-page-from-my-application";
+		public static string Link = "https://github.com/ohadsas/Unity_Ice_Flakes_Project";
 
 		
 	public static readonly string[] menus = {"MainPanel","LoadingPanel","MultiPlayerPanel","StudentInfoPanel", "OptionsPanel"};
